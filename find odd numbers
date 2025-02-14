@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+int i;
+int a[5];
+printf("enter elements\n");
+for(i=0;i<5;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("odd numbers are\n");
+for(i=0;i<5;i++)
+{
+if(a[i]%2!=0)
+{
+printf("%d",a[i]);
+}
+}
+getch();
+}
+
+
+

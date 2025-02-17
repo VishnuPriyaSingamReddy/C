@@ -1,0 +1,17 @@
+#include<studio.h>
+void main() 
+{
+int i, sum=0;
+int a[5];
+printf("enter elements");
+for(i=0;i<5;i++)
+{
+scanf("%d",&a[i]);
+}
+for(i=0;i<5;i++)
+{
+sum=sum+a[i];
+}
+printf("sum of list of integers=%d"sum);
+getch();
+} 

@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+int a[5],i,key;
+printf("enter the elements\n");
+for(i=0;i<5;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("enter search element\n");
+scanf("%d",&key);
+for(i=0;i<5;i++)
+{
+if(key==a[i])
+{
+printf("element is found at %d position",i);
+exit(0);
+}
+}
+printf("element is not found\n");
+getch();
+}
+

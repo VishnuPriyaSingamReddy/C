@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+int a[4][5],i,j;
+printf("enter marks\n");
+for(i=0;i<4;i++)
+{
+for(j=0;j<5;j++)
+{
+scanf("%d",&a[i][j]);
+}
+}
+printf("student marks are\n");
+for(i=0;i<4;i++)
+{
+printf("student %d:\n");
+for(j=0;j<5;j++)
+{
+printf("subject %d is :%d\n",j+1,a[i]a[j]);
+}
+printf("\n");
+}
+getch();
+}
+

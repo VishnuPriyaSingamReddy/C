@@ -1,0 +1,7 @@
+#include<stdio.h>
+#include<string.h>
+void main(0
+{
+char a[10]="RGMCET",b[10];
+printf("reverse=%s",strrev(a));
+}

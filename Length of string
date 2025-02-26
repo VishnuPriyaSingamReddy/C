@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char name[20];
+int n;
+printf("enter name");
+scanf("%s",name);
+n=strlen(name);
+printf("length of the string=%d",n);
+}

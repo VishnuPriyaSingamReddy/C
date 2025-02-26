@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char a[10]="RGMCET",b[10];
+strcpy(b,a);
+printf("string 1=%s",a);
+printf("string 2=%s"b);
+}

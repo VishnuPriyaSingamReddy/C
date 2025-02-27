@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char a[10]="RGM",b[10]="CET";
+strcat(a,b);
+printf("concatenate string=%s\n",a);
+}

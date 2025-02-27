@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char a[10]="RGM",b[10]="RGM";
+if(strcmp(a,b)==0)
+{
+printf("both strings are equal\n");
+}
+else
+{
+printf("both strings are not equal\n");
+}
+}

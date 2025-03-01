@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+char s1[20];
+int i=0;
+printf("enter a string\n");
+gets(s1);
+while(s1[i]!='\0')
+{
+i++;
+}
+printf("length of the given string=%d",i);
+}

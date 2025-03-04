@@ -1,0 +1,12 @@
+#include<stdio.h>
+void add(int,int);
+void main()
+{
+int a=100,b=50,z;
+add(a,b);
+}
+void add(int x,int y)
+{
+int c=x+y;
+printf("sum=%d",c);
+}

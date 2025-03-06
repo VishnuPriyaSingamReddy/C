@@ -1,0 +1,17 @@
+#include<stdio.h>
+int gcd(int,int);
+void main()
+{
+int a,b,c;
+printf("enter a and b values\n");
+scanf("%d%d",&a,&b);
+c=gcd(a,b);
+printf("GCD of two numbers=%d",c);
+}
+int gcd(int a,int b)
+{
+if(a%b==0)
+return b;
+else
+return gcd(b,a%b);
+}

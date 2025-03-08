@@ -1,0 +1,21 @@
+#include<stdio.h>
+void fib(int,int,int,int);
+void main()
+{
+int n;
+printf("enter n value\n");
+scanf("%d",&n);
+fib(0,1,0,n);
+}
+void fib(int a,int b,int sum,int n)
+{
+int(n>0)
+{
+printf("%d",a);
+sum=a+b;
+a=b;
+b=sum;
+n--;
+fib(a,b,sum,n);
+}
+}

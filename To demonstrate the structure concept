@@ -1,0 +1,21 @@
+#include <stdio.h>
+struct std
+{
+int no;
+char name [20];
+float per;
+};
+void main()
+{
+struct std S1, s2;
+struct std S3 = {1, "suguna", 61};
+s2.n0=12;
+s2.name="siva";
+s2.per=41;
+printf("Enter std1 details\n");
+scanf("%d %s %f", &s1.no, &s1.name, &s1.per);
+printf("students details are\n");
+printf("student1 \n no=%d,name=%s, per=%f\n", s1.no, s1.name,s1.per);
+printf("student2 \n no=%d,name=%s, per=%f\n", s2.no, s2.name,s2.per);
+printf("student3 \n no=%d,name=%s, per=%f\n", s3.no, s3.name,s3.per);
+}

@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+struct std
+{
+int no;
+char name[20];
+float per;
+}s1,s2;
+printf("enter std1 details\n");
+scanf("%d%s%f",&s1.no.&s1.name,&s1.per);
+s2=s1;
+printf("student details are\n");
+printf("student1\n no=%d,name=%s,per=%f\n",s1.no,s1.name,s1.per);
+printf("student2\n no=%d,name=%s,per=%f\n",s1.no,s1.name,s1.per);
+}

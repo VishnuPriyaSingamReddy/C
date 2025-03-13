@@ -1,0 +1,22 @@
+#include <stdio.h>
+void main()
+{
+int n;
+struct std
+{
+int no;
+char name [20];
+float per;
+}s1,s2;
+printf("Enter std1 details\n");
+scanf("%d %s %f", &s1.no, &s1.name, &s1.per);
+s2=s1;
+if((s1.no==s2.no)&&(strcmp(s1,s2)?1.0)&&(s1.per==s2.per))
+{
+printf("s1&s2 contents are same\n");
+}
+else
+{
+printf("s1&s2 contents are not same\n");
+}
+}

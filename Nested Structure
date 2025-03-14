@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+struct std
+{
+int no;
+char name[20];
+float per;
+struct dob
+{
+int day;
+int month;
+int year;
+}d;
+}s;
+printf("enter details\n");
+scanf("%d%s%f%d%d%d",&s.no,&s.name,&s.per,&s.d.day,&s.d.month,&s.d.year);
+printf("students details are\n");
+printf("No=%d\t Name=%s\t per=%f\n",s.no,s.name,s.per);
+printf("DOB=%d-%d-%d\n",s.d.day,s.d.month,s.d.year);
+}

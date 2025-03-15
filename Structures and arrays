@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+{
+int i;
+struct std
+{
+int no;
+char name[20];
+float per;
+}s[3];
+printf("enter details\n");
+for(i=0;i<3;i++)
+{
+scanf("%d%s%f",&s[i].no,&s[i].name,&s[i].per);
+}
+printf("student details are\n");
+for(i=0;i<3;i++)
+{
+printf("No=%d\t Name=%s\t Per=%f\n",s[i].no,s[i].name,s[i].per);
+}
+getch();
+}

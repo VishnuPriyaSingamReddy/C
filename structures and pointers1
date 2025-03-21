@@ -1,0 +1,16 @@
+#include<stdio.h>
+struct add
+{
+int a;
+int b;
+};
+void main()
+{
+struct add s;
+struct add *p;
+p=&s;
+printf("enter a & b values\n");
+scanf("%d%d",&p->a,&p->b);
+printf("elements are\n");
+printf("a=%d,b=%d\n",p->a,p->b);
+}

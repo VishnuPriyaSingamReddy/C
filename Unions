@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+union std
+{
+int no;
+char name[20];
+float per;
+};
+union std s;
+printf("size of structure=%d",size of(s));
+}

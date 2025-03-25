@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<dos.h>
+void main(int arg c,char *arg v[])
+{
+int a,b,temp;
+a=a to i(arg v[1]);
+b=a to i(arg v[2]);
+printf("before swapping a=%d,b=%d\n",a,b);
+temp=a;
+a=b;
+b=temp;
+printf("after swapping a=%d,b=%d\n",a,b);
+}

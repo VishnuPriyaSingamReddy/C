@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<dos.h>
+void main(int arg c,char *arg v[])
+{
+int n,i,fact=1;
+n=a to i(arg v[1]);
+for(i=1;i<=n;i++)
+{
+fact=fact*i;
+}
+printf("factorial of a given number=%d\n",fact);
+}
